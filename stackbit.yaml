@@ -28,6 +28,10 @@ models:
     type: data
     label: Site Configuration
     fields:
+    - type: string
+        name: lang
+        label: Site Language
+        description: The language of the site used in HTML lang attribute.
       - type: string
         name: title
         label: Title
