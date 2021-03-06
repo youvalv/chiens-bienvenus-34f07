@@ -7,6 +7,7 @@ import '../sass/main.scss';
 function MyApp({ Component, pageProps }) {
 
     useEffect(() => {
+        console.log("Hey");
         if (window.onNextjsAppDidMount) {
             window.onNextjsAppDidMount();
         }
